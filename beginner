@@ -1,0 +1,71 @@
+1.
+//my first 'hello world'!!
+
+#include "stdafx.h"
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+ cout<<"Hello World!";
+  return 0;
+}
+
+2.
+//先定义一个函数，再输入数值
+
+#include "stdafx.h"
+#include <iostream>
+
+using namespace std;
+
+int max(int x,int y)
+{
+int z;
+if(x>y)z=x;
+else z=y;
+return z;
+}
+
+int main()
+{
+int a,b,c;
+cin>>a>>b;
+c=max(a,b);
+cout<<"最大的是"<<c';
+return 0;
+}
+
+3.
+//
+
+
+
+
+// ConsoleApplication9.cpp : 定义 DLL 应用程序的导出函数。
+//
+
+#include "stdafx.h"
+#include <iostream>
+
+using namespace std;
+
+void printstar(void)
+{
+	cout<<"...."<<endl;
+}
+
+void print_message(void)
+{
+cout<<"..."<<endl;
+}
+
+int main(void)
+{
+	printstar();
+	print_message();
+	printstar();
+	return 0;
+}
+
